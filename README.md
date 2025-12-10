@@ -7,7 +7,7 @@
 复制并执行以下命令即可（推荐）：
 
 ```bash
-wget -O uninstall_komari.sh https://ba.sh/ZTRM && chmod +x uninstall_komari.sh && ./uninstall_komari.sh
+wget -O uninstall_komari.sh https://ba.sh/KeG5 && chmod +x uninstall_komari.sh && ./uninstall_komari.sh
 ```
 
 ## 脚本执行内容
