@@ -29,3 +29,7 @@ sudo rm -rf /opt/komari/agent /var/log/komari
 
 echo -e "${GREEN}=== Komari Agent 卸载流程结束 ===${NC}"
 
+# 6. 删除脚本自身
+echo "6. 正在删除脚本自身..."
+rm -- "$0"
+
