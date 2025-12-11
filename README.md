@@ -53,3 +53,31 @@ wget -O install_caddy.sh https://ba.sh/6M6g && chmod +x install_caddy.sh && ./in
 | 重启 Caddy | `sudo systemctl restart caddy` |
 | 查看状态 | `sudo systemctl status caddy` |
 | 设置开机启动 | `sudo systemctl enable caddy` |
+
+---
+
+# Chion VPS Toolbox
+
+一键工具箱脚本，提供交互式菜单，方便快速执行常用操作。
+
+## 一键运行指令
+
+复制并执行以下命令即可（推荐）：
+
+```bash
+wget -O chion_vps_toolbox.sh https://ba.sh/Kep5 && chmod +x chion_vps_toolbox.sh && ./chion_vps_toolbox.sh
+```
+
+## 特性
+
+- **快捷启动**：首次运行自动设置，之后可直接输入 `chion` 运行工具箱
+- **交互式菜单**：简单选择即可执行常用操作
+
+## 功能菜单
+
+| 选项 | 功能 |
+|------|------|
+| 1 | 安装 Caddy Web 服务器 |
+| 2 | 卸载 Komari Agent |
+| 9 | 卸载此工具箱（移除快捷启动并删除脚本）|
+| 0 | 退出 |
